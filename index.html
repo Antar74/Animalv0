@@ -93,7 +93,7 @@
             <object type="image/svg+xml" data="svg/iconos/buho.svg" class="animal-icon">
               Buho
             </object>
-            <div class="title mt-2">Buh</div>
+            <div class="title mt-1">Buh</div>
             <div class="sub_title">Base drum</div>
           </div>
           <div class="dial_container mb-1 ml-1">
@@ -106,7 +106,7 @@
             <object type="image/svg+xml" data="svg/iconos/oso.svg" class="animal-icon">
               Oso
             </object>
-            <div class="title mt-2">Os</div>
+            <div class="title mt-1">Os</div>
             <div class="sub_title">Snare</div>
           </div>
           <div class="dial_container mb-1 ml-1">
@@ -119,7 +119,7 @@
             <object type="image/svg+xml" data="svg/iconos/gato.svg" class="animal-icon">
               Gato
             </object>
-            <div class="title mt-2">Gat</div>
+            <div class="title mt-1">Gat</div>
             <div class="sub_title">Hi hat</div>
           </div>
           <div class="dial_container mb-1 ml-1">
@@ -132,7 +132,7 @@
             <object type="image/svg+xml" data="svg/iconos/sapo.svg" class="animal-icon">
               Sapo
             </object>
-            <div class="title mt-2">Sap</div>
+            <div class="title mt-1">Sap</div>
             <div class="sub_title">Ride</div>
           </div>
           <div class="dial_container mb-1 ml-1">
@@ -145,7 +145,7 @@
             <object type="image/svg+xml" data="svg/iconos/pato.svg" class="animal-icon">
               Pato
             </object>
-            <div class="title mt-2">Pat</div>
+            <div class="title mt-1">Pat</div>
             <div class="sub_title">Clave</div>
           </div>
           <div class="dial_container mb-1 ml-1">
@@ -158,7 +158,7 @@
             <object type="image/svg+xml" data="svg/iconos/mono.svg" class="animal-icon">
               Mono
             </object>
-            <div class="title mt-2">Mon</div>
+            <div class="title mt-1">Mon</div>
             <div class="sub_title">Bass</div>
           </div>
           <div class="dial_container mb-1 ml-1">
@@ -171,7 +171,7 @@
             <object type="image/svg+xml" data="svg/iconos/cerdo.svg" class="animal-icon">
               Cerdo
             </object>
-            <div class="title mt-2">Cerd</div>
+            <div class="title mt-1">Cerd</div>
             <div class="sub_title">Scratch</div>
           </div>
           <div class="dial_container mb-1 ml-1">
@@ -184,7 +184,7 @@
             <object type="image/svg+xml" data="svg/iconos/loro.svg" class="animal-icon">
               Loro
             </object>
-            <div class="title mt-2">Lor</div>
+            <div class="title mt-1">Lor</div>
             <div class="sub_title">Sampler</div>
           </div>
           <div class="dial_container mb-1 ml-1">
@@ -389,8 +389,10 @@
 
           <!-- SECUENCIADOR (#secuenciador) -->
 
-          <div id="secuenciador" class="col-9 p-4 corners-r fondo-1-animal">
-            <div id="seq-animal"></div>
+          <div id="secuenciador" class="col-9 m-0 p-0 pr-1">
+            <div class="p-4 corners-r fondo-1-animal">
+              <div id="seq-animal"></div>
+            </div>
           </div>
 
           <!-- secuenciador end -->
@@ -398,36 +400,36 @@
           <!-- REGISTRO COMPARTIR (#registro-compartir) -->
 
           <div id="registro-compartir" class="col-lg-1 py-4 px-3 d-flex justify-content-between flex-lg-column fondo-1-animal corners1">
-          <div id="rec-sesion">
-            <object id="boton" type="image/svg+xml" data="svg/botones/boton_rec.svg" >
+            <div id="rec-sesion" class="mx-auto">
+              <object id="boton" type="image/svg+xml" data="svg/botones/boton_rec.svg" >
+                Rec
+              </object>
+              <div class="text-center">
               Rec
-            </object>
-            <div class="text-center">
-            Rec
+              </div>
             </div>
-          </div>
-          <div id="combo-botones">
-            <div id="download-rec">
-              <object id="boton" type="image/svg+xml" data="svg/botones/boton_descargar.svg">
-                Descargar
+            <div id="combo-botones" class="mx-auto d-flex flex-row flex-md-column">
+              <div id="download-rec">
+                <object id="boton" type="image/svg+xml" data="svg/botones/boton_descargar.svg">
+                  Descargar
+                </object>
+              </div>
+              <div id="share-rec">
+                <object id="boton" type="image/svg+xml" data="svg/botones/boton_compartir.svg">
+                  Compartir
+                </object>
+              </div>
+              <div id="email-rec">
+                <object id="boton" type="image/svg+xml" data="svg/botones/boton_email.svg">
+                  Email
+                </object>
+              </div>
+            </div>
+            <div id="help" class="mx-auto align-self-baseline">
+              <object id="boton" type="image/svg+xml" data="svg/botones/boton_ayuda.svg">
+                Ayuda
               </object>
             </div>
-            <div id="share-rec">
-              <object id="boton" type="image/svg+xml" data="svg/botones/boton_compartir.svg">
-                Compartir
-              </object>
-            </div>
-            <div id="email-rec">
-              <object id="boton" type="image/svg+xml" data="svg/botones/boton_email.svg">
-                Email
-              </object>
-            </div>
-          </div>
-          <div id="help" class="align-self-baseline">
-            <object id="boton" type="image/svg+xml" data="svg/botones/boton_ayuda.svg">
-              Ayuda
-            </object>
-          </div>
           </div>
 
     <!-- registro compartir end -->
