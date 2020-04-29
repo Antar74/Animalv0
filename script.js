@@ -3,7 +3,7 @@
 
 
 var sequencer = new Nexus.Sequencer('#seq-animal',{
- 'size': [580,397],
+ 'size': [580,380],
  'mode': 'toggle',
  'rows': 8,
  'columns': 16
