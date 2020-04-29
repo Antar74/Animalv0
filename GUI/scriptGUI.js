@@ -1,6 +1,21 @@
 //---------------------------------------
 // SEQUENCER - secuenciador de 8 canales y 16 pasos
 
+/*
+var sequencer = new Nexus.Sequencer('#seq-animal',{
+ 'size': [580,397],
+ 'mode': 'toggle',
+ 'rows': 8,
+ 'columns': 16
+})
+
+sequencer.on('change',function(v) {
+  console.log(v);
+})
+
+sequencer.on('step',function(v) {
+  console.log(v);
+})*/
 
 //---------------------------------------
 // DIALES - instrumentos
@@ -15,7 +30,7 @@ var dialins1 = new Nexus.Dial('#dial-ins1',{
 })
 
 dialins1.on('change',function(v) {
-//  // console.log(v);
+  console.log(v);
 })
 
 var dialins2 = new Nexus.Dial('#dial-ins2',{
@@ -28,7 +43,7 @@ var dialins2 = new Nexus.Dial('#dial-ins2',{
 })
 
 dialins2.on('change',function(v) {
-//  // console.log(v);
+  console.log(v);
 })
 
 var dialins3 = new Nexus.Dial('#dial-ins3',{
@@ -41,7 +56,7 @@ var dialins3 = new Nexus.Dial('#dial-ins3',{
 })
 
 dialins3.on('change',function(v) {
-//  // console.log(v);
+  console.log(v);
 })
 
 var dialins4 = new Nexus.Dial('#dial-ins4',{
@@ -54,7 +69,7 @@ var dialins4 = new Nexus.Dial('#dial-ins4',{
 })
 
 dialins4.on('change',function(v) {
- // // console.log(v);
+  console.log(v);
 })
 
 var dialins5 = new Nexus.Dial('#dial-ins5',{
@@ -67,7 +82,7 @@ var dialins5 = new Nexus.Dial('#dial-ins5',{
 })
 
 dialins5.on('change',function(v) {
- // // console.log(v);
+  console.log(v);
 })
 
 var dialins6 = new Nexus.Dial('#dial-ins6',{
@@ -80,7 +95,7 @@ var dialins6 = new Nexus.Dial('#dial-ins6',{
 })
 
 dialins6.on('change',function(v) {
- // // console.log(v);
+  console.log(v);
 })
 
 var dialins7 = new Nexus.Dial('#dial-ins7',{
@@ -93,7 +108,7 @@ var dialins7 = new Nexus.Dial('#dial-ins7',{
 })
 
 dialins7.on('change',function(v) {
-//  // console.log(v);
+  console.log(v);
 })
 
 var dialins8 = new Nexus.Dial('#dial-ins8',{
@@ -106,7 +121,7 @@ var dialins8 = new Nexus.Dial('#dial-ins8',{
 })
 
 dialins8.on('change',function(v) {
-//  // console.log(v);
+  console.log(v);
 })
 
 
@@ -123,7 +138,7 @@ var dialch1 = new Nexus.Dial('#dial-ch1',{
 })
 
 dialch1.on('change',function(v) {
-  // console.log(v);
+  console.log(v);
 })
 
 var dialch2 = new Nexus.Dial('#dial-ch2',{
@@ -136,7 +151,7 @@ var dialch2 = new Nexus.Dial('#dial-ch2',{
 })
 
 dialch2.on('change',function(v) {
-  // console.log(v);
+  console.log(v);
 })
 
 var dialch3 = new Nexus.Dial('#dial-ch3',{
@@ -149,7 +164,7 @@ var dialch3 = new Nexus.Dial('#dial-ch3',{
 })
 
 dialch3.on('change',function(v) {
-  // console.log(v);
+  console.log(v);
 })
 
 var dialch4 = new Nexus.Dial('#dial-ch4',{
@@ -162,7 +177,7 @@ var dialch4 = new Nexus.Dial('#dial-ch4',{
 })
 
 dialch4.on('change',function(v) {
-  // console.log(v);
+  console.log(v);
 })
 
 var dialch5 = new Nexus.Dial('#dial-ch5',{
@@ -175,7 +190,7 @@ var dialch5 = new Nexus.Dial('#dial-ch5',{
 })
 
 dialch5.on('change',function(v) {
-  // console.log(v);
+  console.log(v);
 })
 
 var dialch6 = new Nexus.Dial('#dial-ch6',{
@@ -188,7 +203,7 @@ var dialch6 = new Nexus.Dial('#dial-ch6',{
 })
 
 dialch6.on('change',function(v) {
-  // console.log(v);
+  console.log(v);
 })
 
 var dialch7 = new Nexus.Dial('#dial-ch7',{
@@ -201,7 +216,7 @@ var dialch7 = new Nexus.Dial('#dial-ch7',{
 })
 
 dialch7.on('change',function(v) {
-  // console.log(v);
+  console.log(v);
 })
 
 var dialch8 = new Nexus.Dial('#dial-ch8',{
@@ -214,5 +229,5 @@ var dialch8 = new Nexus.Dial('#dial-ch8',{
 })
 
 dialch8.on('change',function(v) {
-  // console.log(v);
+  console.log(v);
 })
