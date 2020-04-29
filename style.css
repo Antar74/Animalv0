@@ -135,7 +135,10 @@ html {
    border-radius: 50%;
    background-color: var(--color-blanco-ui-animal);
 }
-
+.grid-size {
+  width:100%;
+  height:auto;
+}
 
 /* --------------------------------------------- */
 /* Instruments */
