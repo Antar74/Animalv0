@@ -222,23 +222,49 @@
           <!-- CONTROLES -->
 
           <div id="controles" class="col-4 col-lg-12 ">
-            <div class="corners1 fondo-1-animal">
+            <div class="p-2 corners1 fondo-1-animal">
 
-              <div class="row m-2 corners1 blanco-ui-animal">
+              <div class="row m-0 p-0 corners1 blanco-ui-animal">
 
-                <div class="col-12 d-flex flex-row border-bottom">
-                  <div class="border-right">+/-</div>
-                  <div><span class="numero-animal">120</span>BPM</div>
+                <div id="bpm" class="col-12 border-bottom">
+                  <div class="row">
+                    <div class="col-3 p-2 border-right">
+                      <div id="increment-btn" class="">+</div>
+                    </div>
+                    <div class="col-3 p-2 border-right">
+                      <div id="decrement-btn" class="">-</div>
+                    </div>
+                    <div class="col-6 p-2">
+                      <span class="numero-animal">
+                        <strong>120</strong>
+                      </span>
+                      <span class="texto-animal">bpm</span>
+                    </div>
+                  </div>
                 </div>
 
-                <div class="col-12 d-flex flex-row border-bottom">
-                  <div class="border-right">+/-</div>
-                  <div><span class="numero-animal">55</span>Swing</div>
+                <div id="swing" class="col-12 border-bottom">
+                  <div class="row">
+                    <div class="col-3 p-2 border-right">
+                      <div id="increment-btn" class="">+</div>
+                    </div>
+                    <div class="col-3 p-2 border-right">
+                      <div id="decrement-btn" class="">-</div>
+                    </div>
+                    <div class="col-6 p-2">
+                      <span class="numero-animal">
+                        <strong>55</strong>
+                      </span>
+                      <span class="texto-animal">swing</span>
+                    </div>
+                  </div>
                 </div>
 
-                <div class="col-12 d-flex flex-row">
-                  <div class="border-right">Invitar</div>
-                  <div>Mute</div>
+                <div id="inv-mute" class="col-12">
+                  <div class="row">
+                    <div class="col-6 border-right">Invitar</div>
+                    <div class="col-6">Mute</div>
+                  </div>
                 </div>
 
               </div>
