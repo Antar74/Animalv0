@@ -115,9 +115,12 @@ html {
   opacity:1!important;
 }
 
+body {
+  background-color: #BCF65D;
+}
+
 /* --------------------------------------------- */
 /* Extra NexusUI */
-
 
 .mom_dial{
   width:40px !important;
@@ -188,7 +191,7 @@ html {
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
 	margin-left: 15px;
-  margin-top: 50px;
+  margin-top: 30px;
 	background-color: var(--color-destaque-animal);
 }
 
